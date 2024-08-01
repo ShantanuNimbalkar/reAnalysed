@@ -24,4 +24,8 @@ public void calculate(){
 
   }
 
+public void HelloWorld(){
+	System.out.println("Hello world!!!");
+  }
+
 }
