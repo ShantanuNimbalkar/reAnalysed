@@ -19,4 +19,9 @@ public class Hello {
 	  }
   }
 
+public void calculate(){
+	int i = 0;
+
+  }
+
 }
