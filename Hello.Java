@@ -28,4 +28,12 @@ public void HelloWorld(){
 	System.out.println("Hello world!!!");
   }
 
+public void emptyTryBlock(){
+		try{
+
+		}catch(IOException e){
+			logger.error("Exception: ",e);
+		}
+  }
+
 }
