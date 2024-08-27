@@ -13,7 +13,7 @@ public class Hello {
 	System.out.println("before");
 	logger.info("HellocWorld!!");
 	  try{
-		logger.info("After");
+		System.out.println("After");
 	  }catch(Exception e){
 		logger.error("error:",e);
 	  }
