@@ -8,12 +8,10 @@ public class Hello {
 		logger.info("Always true");
 	}
 
-	System.out.println("Helo");
-	logger.info("Hello");
-	logger.info("bye");
-	logger.info("rocky");
+	System.out.println("before");
+	logger.info("HellocWorld!!");
 	  try{
-
+		System.out.println("After");
 	  }catch(Exception e){
 		logger.error("error:",e);
 	  }
